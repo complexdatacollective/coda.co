@@ -17,7 +17,7 @@ export default function Home() {
       </div>
       <footer className="text-center text-sm text-gray-500 shrink grow-0 p-10 gap-6 flex flex-col">
         <p>
-          <a href="/codaco-bylaws.pdf">By-laws</a>.
+          <a href="/docs/codaco-bylaws.pdf">By-laws</a>.
         </p>
         Copright © {new Date().getFullYear()} Complex Data Collective
       </footer>
