@@ -2,14 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+body {
+  @apply text-gray-600;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+a {
+  @apply text-blue-500;
+  @apply hover:text-blue-700;
+  @apply hover:underline;
+  @apply hover:underline-offset-4
 }
+
