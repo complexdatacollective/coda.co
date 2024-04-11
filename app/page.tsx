@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between gap-10">
       <div className="grow shrink-0 flex flex-col justify-center items-center">
-        <a href="mailto:developers@coda.co">
+        <a href="mailto:hello@complexdatacollective.org">
           <img
             src="/codaco.png"
             alt="CODACO logo"
